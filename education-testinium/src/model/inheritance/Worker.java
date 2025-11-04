@@ -1,4 +1,4 @@
-package model;
+package model.inheritance;
 
 public class Worker {
 

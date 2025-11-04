@@ -1,8 +1,5 @@
-import model.Car;
-import model.SoftwareWorker;
-import model.Worker;
-
-import java.util.Scanner;
+import model.constructor.Car;
+import model.inheritance.SoftwareWorker;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package model;
+package model.constructor;
 
 public class Car {
 
