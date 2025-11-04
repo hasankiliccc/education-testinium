@@ -1,4 +1,6 @@
 import model.Car;
+import model.SoftwareWorker;
+import model.Worker;
 
 import java.util.Scanner;
 
@@ -12,8 +14,21 @@ public class Main {
 
 
 
-        Car car = new Car();
-        Car car2 = new Car();
+        Car car = new Car(1,"bmw","red",2025);
+       // Car car2 = new Car();
+
+
+        car.setModel("Renault");
+        car.setModel("bmq");
+        car.setModel("fiat");
+        car.getModel();
+        System.out.println(car.getModel());
+        car.setYear(2018);
+
+        SoftwareWorker softwareWorker = new SoftwareWorker();
+       softwareWorker.setAd("Hasan");
+       softwareWorker.setId(1);
+       softwareWorker.setPrgrammingLanguage("JAVA");
 
 
 
